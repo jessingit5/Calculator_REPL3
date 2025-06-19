@@ -1,4 +1,4 @@
-from app.calculation.calculation import Calculation
+from ..calculation import Calculation
 
 class CalculationHistory:
     _history: list[Calculation] = []

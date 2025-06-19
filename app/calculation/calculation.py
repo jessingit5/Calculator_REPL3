@@ -1,5 +1,5 @@
 
-from app.operation.operations import Operation
+from ..operation.operations import Operation
 
 class Calculation:
     

@@ -1,6 +1,6 @@
-from ..operation.operations import Operation, Addition, Subtraction, Multiplication, Division
-from ..calculation.calculation import Calculation
-from ..calculator.history import CalculationHistory
+from app.operation.operations import Operation, Addition, Subtraction, Multiplication, Division
+from app.calculation.calculation import Calculation
+from app.calculator.history import CalculationHistory
 
 class Calculator:
 

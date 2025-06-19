@@ -1,4 +1,4 @@
-from ..calculator import Calculator
+from app.calculator import Calculator
 
 class App:
     def __init__(self):

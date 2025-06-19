@@ -21,15 +21,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Install testing libraries from requirements.txt
         pip install -r requirements.txt
-        # Install our 'app' package in editable mode
         pip install -e .
     
     - name: Run tests with coverage
       run: |
-        # Now pytest will find the 'app' module
-        pytest --cov=app --cov-report=term-missing tests/
+        # Point coverage to the 'src' directory
+        pytest --cov=src/app --cov-report=term-missing tests/
     
     - name: Check for 100% coverage
       run: |

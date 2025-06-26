@@ -1,7 +1,5 @@
 pytest
-<<<<<<< HEAD:requirements.txt
 pytest-cov
 pandas
-=======
-pytest-cov
->>>>>>> parent of b2b6c26 (adding requirement):.github/workflows/requirements.txt
+
+
